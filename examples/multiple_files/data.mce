@@ -1,0 +1,16 @@
+def file1 begin
+	effect clear @s minecraft:resistance
+end
+
+def file2 begin
+	effect clear @s minecraft:slowness
+	effect clear @s minecraft:darkness
+end
+
+# These two lines won't go into any of the .mcfunction files
+execute as @p run say jhdkfasdbkfsdfj
+
+def __main__ begin
+	# It will copy the comment lines too
+	say Hello World!
+end

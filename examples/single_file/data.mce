@@ -1,0 +1,4 @@
+def __main__ begin
+	# It will copy the comment lines too
+	say Hello World!
+end

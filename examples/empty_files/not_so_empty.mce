@@ -1,0 +1,8 @@
+def file1 begin
+end
+
+def file2 begin
+end
+
+def __main__ begin
+end

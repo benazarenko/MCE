@@ -1,0 +1,12 @@
+def file1 begin
+	effect clear @s minecraft:resistance
+end
+
+def file2 begin
+	effect clear @s minecraft:slowness
+	effect clear @s minecraft:darkness
+end
+
+def __main__ begin
+	say Hello World!
+end

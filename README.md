@@ -4,7 +4,7 @@ An extended minecraft function format for datapack makers
 
 ## About MCE
 
-MCE is an extension of `mcfunction` files that are used in Minecraft datapacks. An `mce` file uses additional syntax that allows it to be split into multiple `mcfunction` files while being single.
+MCE is an extension of `mcfunction` files that are used in Minecraft datapacks. An `mce` file uses additional syntax that allows it to be split into multiple `mcfunction` files. You can also say that it combines multiple `mcfunction` files into one single `mce` file.
 
 ## Motivation
 
