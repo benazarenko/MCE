@@ -30,6 +30,7 @@ It will remove **EVERY** file and folder in the subfolder. Be sure you don't hav
 
 Let's see this `test.mce` file example here:
 ```
+clean
 def file1 begin
 	effect clear @s minecraft:resistance
 end
@@ -45,7 +46,7 @@ def __main__ begin
 end
 ```
 
-Translating this will produce 3 `mcfunction` files with following paths:
+Processing this will remove folder `test` and create 3 `mcfunction` files:
 
 ```
 .
@@ -55,7 +56,7 @@ Translating this will produce 3 `mcfunction` files with following paths:
     └── file2.mcfunction
 ```
 
-The file contents are the same as in the `def` blocks you see in the `mce` file with corresponding names. This let's you create multiple files using only one.
+The file contents are the same as in the `def` blocks you see in the `test.mce` file with corresponding names.
 
 ## FAQ
 
