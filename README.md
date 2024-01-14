@@ -65,6 +65,8 @@ The file contents are the same as in the `def` blocks you see in the `test.mce` 
 * The translator will ignore empty files, but won't ignore empty `begin`/`end` blocks.
 * The translator will ignore everything you write between blocks.
 * Coding style doesn't matter. You can write `begin` at the end of `def` line, or at the new line.
+* Every `end` should be the only word in a line for it to match.
+* The translator doesn't validate the mcfunction code or filenames. It'll return an error if you break the system rules, or if try to process the files with spaces and forbidden symbols. For more information, see [here](https://www.minecraft.net/en-us/article/minecraft-snapshot-17w43a).
 
 ## Contributing
 

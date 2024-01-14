@@ -1,0 +1,26 @@
+# You should note that every "begin" should be surrounded by spaces and/or newlines,
+# and every "end" should be surrounded by newline characters to match it.
+
+# This style works fine
+def file1
+begin
+	effect clear @s minecraft:resistance
+end
+
+# This works fine too
+def file2
+
+begin	effect clear @s minecraft:slowness
+		effect clear @s minecraft:darkness
+end
+
+# This won't work
+def file3 begin say my file3 broke! end
+
+# This won't work either
+def file4 begin
+	say file4 is broken too. end
+
+# This is broken due to previous ends placed incorrectly
+def __main__ begin
+	say we will never see __main__ file here. end
