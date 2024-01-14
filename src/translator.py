@@ -23,7 +23,7 @@ def translate_file(input_filename):
     if content[:5] == 'clean':
         clean = True
 
-    pattern = re.compile(r'def\s+(\S+)\s*begin(.*?)\s+end\s+', re.DOTALL)
+    pattern = re.compile(r'def\s+(\S+)\s*begin(.*?)\n\s*end\s*\n', re.DOTALL)
     matches = pattern.findall(content)
 
     if clean == True and os.path.exists(os.path.join(path, subpath)):
